@@ -1,0 +1,59 @@
+/* html{
+    background-color: tan;
+} */
+
+body{
+    height: 2000px;
+}
+
+nav ul {
+    list-style-type: none;  /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    margin-right: 20px;     /* Space between items */
+  }
+  
+  /* Style the links */
+  nav ul li a {
+    text-decoration: none;  /* Remove underline */
+    padding: 10px;
+    color: #000;            /* Text color */
+  }
+  
+
+h1{
+    color: rgb(255, 0, 0); 
+    font-family: "Handjet", sans-serif;
+    font-weight: 100;
+}
+
+p{
+    font-family: "Caveat", cursive;
+    font-size: 1.5em;
+    width: 40%;
+}
+
+h2{
+    font-family: "arbotek", sans-serif;
+    font-weight: 900;
+}
+
+img{
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+section{
+    position: relative;
+    top: 100px;
+    z-index: -1;
+}
